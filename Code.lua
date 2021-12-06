@@ -192,7 +192,6 @@ elseif PlaceId == 983224898 then
     selected_teamType = "WildRevolvers"
     selected_rigType = rigTypeR15
 elseif PlaceId == 7884566060 then
-    selected_teamType = "AnomalousActivities"
     selected_rigType = rigTypeR6
 elseif rigType == "R6" then
     selected_rigType = rigTypeR6
