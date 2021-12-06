@@ -1,5 +1,9 @@
 --[[ // CREDITS \\--
 
+    Edited/Reworked By RemoteScript
+https://v3rmillion.net/member.php?action=profile&uid=3807
+
+
     YESOK FOR DEVELOPMENT
 https://v3rmillion.net/member.php?action=profile&uid=514695
 
