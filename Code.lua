@@ -191,6 +191,9 @@ elseif PlaceId == 401356052 then
 elseif PlaceId == 983224898 then
     selected_teamType = "WildRevolvers"
     selected_rigType = rigTypeR15
+elseif PlaceId == 7884566060 then
+    selected_teamType = "AnomalousActivities"
+    selected_rigType = rigTypeR6
 elseif rigType == "R6" then
     selected_rigType = rigTypeR6
 elseif rigType == "R15" then
@@ -226,6 +229,8 @@ local function teamType(player)
         end
     elseif selected_teamType == "IslandRoyale" then
         return player:FindFirstChild("TeamName").Value
+    elseif selected_teamType == "AnomalousActivities" then
+        return player:FindFirstChild("character_role").Value
     elseif selected_teamType == "WildRevolvers" then
         if player == LocalPlayer then
             return tostring(BrickColor.new(0, 255, 0))
