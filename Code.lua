@@ -1,3 +1,5 @@
+--Ripped From Stefanuk12's Unreleased But Public Aim Module.
+
 if getgenv().Aiming then return getgenv().Aiming end
 
 -- // Services
